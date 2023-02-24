@@ -1,10 +1,11 @@
 import React from 'react'
+import Sidebar from '../Sidebar'
 import './index.scss'
 
 const Layout = () =>
 {
     return (
-        <div>index</div>
+        <Sidebar />
     )
 }
 
