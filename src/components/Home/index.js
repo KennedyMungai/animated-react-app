@@ -1,6 +1,7 @@
 import React from 'react'
 import './index.scss'
 import LogoTitle from '../../assets/images/logo-s.png'
+import { Link } from 'react-router-dom'
 const Home = () =>
 {
     return (
@@ -15,6 +16,9 @@ const Home = () =>
                 <h2>
                     Frontend Developer / Backend Developer / DevOps Operator
                 </h2>
+                <Link to='/contact' className='flat-button'>
+                    CONTACT ME
+                </Link>
             </div>
         </div>
     )
