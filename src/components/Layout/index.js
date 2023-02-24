@@ -1,11 +1,11 @@
 import React from 'react'
 import './index.scss'
 
-const index = () =>
+const Layout = () =>
 {
     return (
         <div>index</div>
     )
 }
 
-export default index
+export default Layout
