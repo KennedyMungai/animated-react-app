@@ -5,6 +5,13 @@
     }
   ],
   "settings": {
-    "cSpell.words": ["Coolvetica", "noopener", "noreferrer"]
+    "cSpell.words": [
+      "activeclassname",
+      "Coolvetica",
+      "fontawesome",
+      "fortawesome",
+      "noopener",
+      "noreferrer"
+    ]
   }
 }
