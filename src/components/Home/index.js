@@ -1,10 +1,15 @@
 import React from 'react'
 import './index.scss'
-
+import LogoTitle from '../../assets/images/logo-s.png'
 const Home = () =>
 {
     return (
-        <div>Home</div>
+        <div className='container home-page'>
+            <div className="text-zone">
+                <h1>Hi, <br /> I'm </h1>
+                <img src={LogoTitle} alt="developer" />
+            </div>
+        </div>
     )
 }
 
